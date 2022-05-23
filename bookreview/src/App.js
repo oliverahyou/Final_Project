@@ -1,13 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-import Books from './components/Books';
-
+import { Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import Browse from './components/Browse';
+import Login from './components/Login';
+import Signup from './components/Signup';
 
 function App() {
   return (
     <div className="App">
-      type
-      <Books/>
+     <Routes>
+     <Route path="/" element={<Home />} />
+     <Route path="browse" element={<Browse />} />
+     <Route path="login" element={<Login />} />
+     <Route path="signup" element={<Signup />} />
+     
+    </Routes> 
+    
+      
     </div>
   );
 }
