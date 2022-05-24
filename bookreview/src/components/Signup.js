@@ -6,7 +6,7 @@ function Signup() {
     <div>
         <Navbar/>
         <div class="login-container text">
-        <form action="" id="loginform">   
+        <form action="" id="loginform" method="POST">   
             <input type="text" name="firstname" id="firstname" placeholder='First name'/>
             <input type="text" name="lastname" id="lastname" placeholder='Last name'/>
             <input type="email" name="email" id="email" placeholder='Email'/>

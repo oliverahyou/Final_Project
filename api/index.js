@@ -23,12 +23,3 @@ app.use(function(req, res, next) {
   });
 
 app.use(express.json())
-
-
-app.get('/', (req, res) => {
-    db
-    .select().from('todo_entries')
-    .then(todo =>
-        res.send(todo)
-    )
-})
