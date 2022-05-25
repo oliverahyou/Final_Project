@@ -1,10 +1,14 @@
+body {
+    margin-top: 50px;
+}
+
 /* Home */
 a {
     color: black;
     text-decoration: none;
 }
 button {
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 5px 10px;
     width: 100px;
 }
@@ -18,16 +22,20 @@ body {
 .featured-books {
     width: 100px;
     height: 150px;
+    border: 1px solid black;
 }
 .featured-container-main {
     display: flex;
+    flex-direction: column;
     margin-left: 20px;
 }
 .featured-info {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-top: 20px;
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .featured-buttons {
     flex-direction: row;
@@ -35,22 +43,29 @@ body {
 #main-featured {
     height: 300px;
     width: 200px;
+    display: inline-block;
+    border: 1px solid black;
 }
 .discover-text {
+    font-family: "Dancing Script";
     display: flex;
     margin-left: auto;
-    margin-right: 20px;
-    font-size: 50px;
+    margin-right: auto;
     font-weight: bold;
-    text-align: right;
+    font-size: 80px;
 }
 .categories-container {
     width: 100%;
     height: 100%;
     margin-top: 20px;
     padding: 20px;
-    background-color: darkgrey;
-    
+    background-color: black;   
+}
+.categories {
+    color: white;
+}
+.categoriesTitle {
+    color: white;
 }
 .div-categories {
     display: flex;
@@ -63,6 +78,14 @@ body {
 .text-left {
     text-align: left;
 }
+.reviewbutton {
+    background-color: rgb(255, 136, 0);
+    color: white;
+}
+.buybutton {
+    background-color: green;
+    color: white;
+}
 /* Browse */
 
 .books-container {
@@ -73,6 +96,7 @@ body {
     width: 250px;
     height: 400px;
     margin: 20px;
+    border: 1px solid black;
     
 }
 .accord-cat {
@@ -80,23 +104,54 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
-
+.books-text {
+    margin-left: 20px;
+}
 /* Login */
 .text-center {
     text-align: center;
 }
-.login-container {
-    width: 25%;
-    height: 25%;
-    background-color: #CEC3C3;
+#loginform {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #CEC3C3;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-  
 }
+#signupform {
+    width: 300px;
+    height: 500px;
+    border: 1px solid #CEC3C3;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.formlabels {
+    font-weight: bold;
+}
+.logincontainer {
+    margin-top: 50px;
+}
+.inputfields {
+    margin: 5px;
+    border-radius: 3px;
+}
+
 #login-button {
+    background-color: black;
+    color: white;
     margin-top: 20px;
     width: 50%;
+}
+/* Sign Up */
+.logincontainer {
+    display: flex;
+    flex-direction: column;
+}
+#signup-button {
+    background-color: black;
+    color: white;
 }
 /* Browse-accordion */
 .star-container {
@@ -105,5 +160,6 @@ body {
 }
 .byprice {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
+/* Navbar */

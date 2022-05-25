@@ -15,7 +15,7 @@ function Browse_accordion(){
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <div class="accord-cat">
-                            <a href=""><p>Local</p></a>
+                            <a href="/browse_local"><p>Local</p></a>
                             <a href=""><p>Fiction</p></a>
                             <a href=""><p>Fantasy</p></a>
                             <a href=""><p>Romance</p></a>
@@ -66,12 +66,12 @@ function Browse_accordion(){
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <div class="byprice">
-                            <a href=""><p>&lt;Rs250</p></a>
-                            <a href=""><p>&lt;Rs500</p></a>
-                            <a href=""><p>&lt;Rs750</p></a>
-                            <a href=""><p>&lt;Rs1000</p></a>
-                            <a href=""><p>&lt;Rs1250</p></a>
-                            <a href=""><p>&lt;Rs1500</p></a>
+                            <a href=""><p>Less than <strong>MUR 250</strong></p></a>
+                            <a href=""><p>Less than <strong>MUR 500</strong></p></a>
+                            <a href=""><p>Less than <strong>MUR 750</strong></p></a>
+                            <a href=""><p>Less than <strong>MUR 1000</strong></p></a>
+                            <a href=""><p>Less than <strong>MUR 1250</strong></p></a>
+                            <a href=""><p>More than <strong>MUR 1250</strong></p></a>
                         </div>
                     </div>
                     

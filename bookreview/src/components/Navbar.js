@@ -1,15 +1,15 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
-import '../components/Style.css'
+import '../components/Style.css';
 
 
 function Navbar() {
   return (
     <div>
         
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar fixed-top navbar-expand-lg bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/"><Link to="/">Book<strong>Review</strong></Link></a>
+      <a class="navbar-brand" href="/"><Link to="/"><h4>Book<strong>Review</strong></h4></Link></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -18,15 +18,11 @@ function Navbar() {
           <li class="nav-item">
             <a class="nav-link" href="/browse"><Link to="/browse">Browse</Link></a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Community
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="review.html">Reviews</a></li>
-              <li><hr class="dropdown-divider"/></li>
-              <li><a class="dropdown-item" href="forum.html">Forum</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="/reviews"><Link to="/reviews">Reviews</Link></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/forum"><Link to="/forum  ">Forum</Link></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/login"><Link to="/login">Login</Link></a>
@@ -46,4 +42,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;

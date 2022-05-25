@@ -5,6 +5,8 @@ import Home from './components/Home';
 import Browse from './components/Browse';
 import Login from './components/Login';
 import Signup from './components/Signup';
+import Reviews from './components/Reviews';
+import Forum from './components/Forum';
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
      <Route path="browse" element={<Browse />} />
      <Route path="login" element={<Login />} />
      <Route path="signup" element={<Signup />} />
+     <Route path="reviews" element={<Reviews />} />
+     <Route path="forum" element={<Forum />} />
      
 
      
