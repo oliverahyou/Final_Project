@@ -22,9 +22,6 @@ function Navbar() {
             <a class="nav-link" href="/reviews"><Link to="/reviews">Reviews</Link></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/forum"><Link to="/forum  ">Forum</Link></a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="/login"><Link to="/login">Login</Link></a>
           </li>
           <li class="nav-item">

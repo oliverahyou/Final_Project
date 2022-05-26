@@ -7,7 +7,10 @@ function Reviews(){
         <div>
             <Navbar/>
 
-            
+            <div>
+                <div><img src=""></img></div>
+                <div></div>
+            </div>
             <Footer/>
         </div>
     )
