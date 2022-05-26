@@ -10,16 +10,6 @@ import book8 from '../images/theinterrogation.jpg'
 import Navbar from './Navbar';
 import Browse_accordion from './Browse_accordion'
 import Footer from './Footer'
-let books = [
-      
-  {title: ""},
-  {author: ""},
-  {description: ""},
-  {category: ""},
-  {price: ""},
-
-]
-books.forEach(detail, i)
 
 function Browse() {
   return (
@@ -27,10 +17,83 @@ function Browse() {
       <Navbar/>
       <Browse_accordion/>
 
-    
-    
+    <div class="books-container">
+        <div class="bookandtext">
+            <a href=""><img class="books-all" src={book} alt=""/></a>
+              <div class="books-text text-left">
+              <p><strong>Title:</strong></p>
+              <p><strong>Author:</strong></p>
+              <p><strong>Description:</strong></p>
+              </div>
+              <button class="reviewbutton">Reviews</button>
+            <button class="buybutton">Buy</button>
+        </div>
+        <div class="bookandtext">
+            <a href=""><img class="books-all" src={book2} alt=""/></a>
+              <div class="books-text text-left">
+              <p><strong>Title:</strong></p>
+              <p><strong>Author:</strong></p>
+              <p><strong>Description:</strong></p>
+              </div>
+              <button class="reviewbutton">Reviews</button>
+            <button class="buybutton">Buy</button>
+        </div><div class="bookandtext">
+            <a href=""><img class="books-all" src={book3} alt=""/></a>
+              <div class="books-text text-left">
+              <p><strong>Title:</strong></p>
+              <p><strong>Author:</strong></p>
+              <p><strong>Description:</strong></p>
+              </div>
+              <button class="reviewbutton">Reviews</button>
+            <button class="buybutton">Buy</button>
+        </div><div class="bookandtext">
+            <a href=""><img class="books-all" src={book4} alt=""/></a>
+              <div class="books-text text-left">
+              <p><strong>Title:</strong></p>
+              <p><strong>Author:</strong></p>
+              <p><strong>Description:</strong></p>
+              </div>
+              <button class="reviewbutton">Reviews</button>
+            <button class="buybutton">Buy</button>
+        </div><div class="bookandtext">
+            <a href=""><img class="books-all" src={book5} alt=""/></a>
+              <div class="books-text text-left">
+              <p><strong>Title:</strong></p>
+              <p><strong>Author:</strong></p>
+              <p><strong>Description:</strong></p>
+              </div>
+              <button class="reviewbutton">Reviews</button>
+            <button class="buybutton">Buy</button>
+        </div><div class="bookandtext">
+            <a href=""><img class="books-all" src={book6} alt=""/></a>
+              <div class="books-text text-left">
+              <p><strong>Title:</strong></p>
+              <p><strong>Author:</strong></p>
+              <p><strong>Description:</strong></p>
+              </div>
+              <button class="reviewbutton">Reviews</button>
+            <button class="buybutton">Buy</button>
+        </div><div class="bookandtext">
+            <a href=""><img class="books-all" src={book7} alt=""/></a>
+              <div class="books-text text-left">
+              <p><strong>Title:</strong></p>
+              <p><strong>Author:</strong></p>
+              <p><strong>Description:</strong></p>
+              </div>
+              <button class="reviewbutton">Reviews</button>
+            <button class="buybutton">Buy</button>
+        </div><div class="bookandtext">
+            <a href=""><img class="books-all" src={book8} alt=""/></a>
+              <div class="books-text text-left">
+              <p><strong>Title:</strong></p>
+              <p><strong>Author:</strong></p>
+              <p><strong>Description:</strong></p>
+              </div>
+              <button class="reviewbutton">Reviews</button>
+            <button class="buybutton">Buy</button>
+        </div>
         
-    
+    </div>
     <Footer/>
     </div>
   )

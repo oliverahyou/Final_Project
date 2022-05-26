@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import book from '../images/thelastbrother.jpg'
 
 function Reviews(){
     return(
@@ -8,7 +9,7 @@ function Reviews(){
             <Navbar/>
 
             <div>
-                <div><img src=""></img></div>
+                <div><img src={book} class="reviewimage" ></img></div>
                 <div></div>
             </div>
             <Footer/>
