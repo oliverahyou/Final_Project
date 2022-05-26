@@ -9,8 +9,10 @@ function Reviews(){
             <Navbar/>
 
             <div>
-                <div><img src={book} class="reviewimage" ></img></div>
-                <div></div>
+                <div><img src={book} class="reviewimage"></img></div>
+                <div>
+                    <p></p>
+                </div>
             </div>
             <Footer/>
         </div>
