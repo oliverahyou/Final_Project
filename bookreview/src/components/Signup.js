@@ -20,7 +20,7 @@ function Signup() {
           <label for="firstname" class="formlabels">Confirm password</label><br/> 
           <input class="inputfields" type="password" name="confirmpassword" id="confirmpassword" placeholder=''/><br/>
           <input type="checkbox" id="terms-and-conditions-check"/>I have read and agree to the <br/> <a href="">Terms and Conditions</a><br/>
-          <button id="signup-button">Sign Up</button>
+          <button id="signup-button" type="submit">Sign Up</button>
         </form>
     </div>
     </div>
