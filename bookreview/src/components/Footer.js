@@ -7,7 +7,7 @@ function Footer(){
         
         
         <div class="footertext">
-            <h5>Made by Oliver Ah You</h5>
+            <h5>Developers Institute(Oliver Ah You)</h5>
         
         </div>
         
