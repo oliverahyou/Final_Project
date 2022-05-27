@@ -8,6 +8,7 @@ import book4 from '../images/eveoutofherruins.jpg'
 import book5 from '../images/silentwindsdryseas.jpg'
 import book6 from '../images/kayadays.jpg'
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 function Home() {
 
@@ -25,12 +26,12 @@ function Home() {
       <hr/>
       
       <div class="featured-container-main">
-        <a href="./Review"><img src={book} alt="Suggested book" id="main-featured"/></a>
-        <div class="featured-info text-center">
+        <div><a href="./Review"><img src={book} alt="Suggested book" id="main-featured"/></a></div>
+        <div class="featured-info text-left">
             <p><strong>Title:</strong> The Last Brother</p>
             <p><strong>Author:</strong> Nathacha Appanah</p>
             <p><strong>Category:</strong> Local</p>
-            <p class="text-justify"><strong>Description:</strong> In The Last Brother by Nathacha Appanah, 1944 is coming to a close and nine-year-old Raj is unaware of the war devastating the rest of the world. He lives in Mauritius, a remote island in the Indian Ocean, where survival is a daily struggle for his family. When a brutal beating lands Raj in the hospital of the prison camp where his father is a guard, he meets a mysterious boy his own age. David is a refugee, one of a group of Jewish exiles whose harrowing journey took them from Nazi occupied Europe to Palestine, where they were refused entry and sent on to indefinite detainment in Mauritius.</p>
+            <p class="text-justify"><strong>Description:</strong> In The Last Brother by Nathacha Appanah, 1944 is coming to a close and nine-year-old Raj is unaware of the war devastating the rest of the world. He lives in Mauritius, a remote island in the Indian Ocean, where survival is a daily struggle for his family...</p>
             <div class="rating">
               <p><strong>Rating:</strong> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
             </div>
@@ -45,18 +46,7 @@ function Home() {
 
     <div class="categories-container">
         
-        <div><h3 class="categoriesTitle">Categories:</h3></div>
-        <div class="div-categories">
-            <a href=""><p class="categories">Local</p></a>
-            <a href=""><p class="categories">Fiction</p></a>
-            <a href=""><p class="categories">Fantasy</p></a>
-            <a href=""><p class="categories">Romance</p></a>
-            <a href=""><p class="categories">Thriller</p></a>
-            <a href=""><p class="categories">Biography</p></a>
-            <a href=""><p class="categories">Personal Development</p></a>
-            <a href=""><p class="categories">History</p></a>
-            <a href=""><p class="categories">Science Fiction</p></a>
-        </div>
+        <Footer />
         
     </div>
 </div>
