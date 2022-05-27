@@ -1,7 +1,7 @@
 import React from "react"
 
 
-function Browse_accordion(){
+function BrowseAccordion(){
     return(
         <div>
 
@@ -82,4 +82,4 @@ function Browse_accordion(){
         </div>
     )
 }
-export default Browse_accordion
+export default BrowseAccordion;

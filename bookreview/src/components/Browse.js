@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar';
-import Browse_accordion from './Browse_accordion'
+import BrowseAccordion from './BrowseAccordion'
 import Footer from './Footer'
 import books from "./books";
 
@@ -22,8 +22,8 @@ function Browse() {
                 </a>
 
                 <div class="books-text text-left">
-                  <p><strong>Title:${book.title}</strong></p>
-                  <p><strong>Author:${book.author}</strong></p>
+                  <p><strong>Title:</strong>${book.title}</p>
+                  <p><strong>Author:</strong>${book.author}</p>
                   <p><strong>Description:</strong>${book.desc}</p>
                 </div>
                 
@@ -39,7 +39,7 @@ function Browse() {
     return (
       <div>
           <Navbar/>
-          <Browse_accordion/>
+          <BrowseAccordion/>
 
           <div class="books-container" dangerouslySetInnerHTML={{__html: `${collection}`}} />
           <Footer/>
@@ -47,7 +47,7 @@ function Browse() {
   )
 }
 
-export default Browse
+export default Browse;
 
 
 // let div_container = document.createElement('div');

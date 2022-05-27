@@ -16,16 +16,16 @@ function Home() {
     <Navbar/>
 
       <div class="featured-container">
-        <a href=""><img class="featured-books" src={book2} alt="Suggested book"/></a>
-        <a href=""><img class="featured-books" src={book3} alt="Suggested book"/></a>
-        <a href=""><img class="featured-books" src={book4} alt="Suggested book"/></a>
-        <a href=""><img class="featured-books" src={book5} alt="Suggested book"/></a>
-        <a href=""><img class="featured-books" src={book6} alt="Suggested book"/></a>        
+        <a href="./Reviews"><img class="featured-books" src={book2} alt="Suggested book"/></a>
+        <a href="./Reviews"><img class="featured-books" src={book3} alt="Suggested book"/></a>
+        <a href="./Reviews"><img class="featured-books" src={book4} alt="Suggested book"/></a>
+        <a href="./Reviews"><img class="featured-books" src={book5} alt="Suggested book"/></a>
+        <a href="./Reviews"><img class="featured-books" src={book6} alt="Suggested book"/></a>        
       </div>
       <hr/>
       
       <div class="featured-container-main">
-        <a href=""><img src={book} alt="Suggested book" id="main-featured"/></a>
+        <a href="./Review"><img src={book} alt="Suggested book" id="main-featured"/></a>
         <div class="featured-info text-center">
             <p><strong>Title:</strong> The Last Brother</p>
             <p><strong>Author:</strong> Nathacha Appanah</p>

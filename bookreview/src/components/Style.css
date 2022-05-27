@@ -1,5 +1,5 @@
 body {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 /* Home */
@@ -107,6 +107,7 @@ body {
 }
 .books-text {
     margin-left: 20px;
+    height: 280px;
     max-width: 300px;
     text-align: justify;
 }
