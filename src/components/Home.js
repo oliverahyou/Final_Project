@@ -37,7 +37,7 @@ function Home() {
             </div>
             <p><strong>Price:</strong> Rs 700</p>
             <div class="featured-buttons">
-              <a href=""><button class="reviewbutton">Reviews</button></a> 
+              <a href="./Review"><button class="reviewbutton">Reviews</button></a> 
               <a href="https://www.amazon.com/Last-Brother-Translation-Selection-Paperback/dp/1555975755/ref=sr_1_2?crid=3Q5XG6EKHGYIQ&keywords=the+last+brother&qid=1652950418&s=books&sprefix=the+lost+brother%2Cstripbooks-intl-ship%2C352&sr=1-2" target="_blank"><button class="buybutton">Buy</button></a>
             </div>
         </div>
