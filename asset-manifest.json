@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Final_Project/static/css/main.ab8cafb0.css",
+    "main.js": "/Final_Project/static/js/main.69335490.js",
+    "static/js/787.3a567b34.chunk.js": "/Final_Project/static/js/787.3a567b34.chunk.js",
+    "static/media/kayadays.jpg": "/Final_Project/static/media/kayadays.7574cdb766f4e187406d.jpg",
+    "static/media/theprisonerofparadise.jpg": "/Final_Project/static/media/theprisonerofparadise.7efe69b693e6d004a64f.jpg",
+    "static/media/thelastbrother.jpg": "/Final_Project/static/media/thelastbrother.7ccf8091e76abad8121b.jpg",
+    "static/media/silentwindsdryseas.jpg": "/Final_Project/static/media/silentwindsdryseas.abc15ca2b895f1a064bd.jpg",
+    "static/media/theprospector.jpg": "/Final_Project/static/media/theprospector.5fa2bda3c506ab45c4a5.jpg",
+    "static/media/eveoutofherruins.jpg": "/Final_Project/static/media/eveoutofherruins.acd5a7b946f33ffad42f.jpg",
+    "static/media/logo.svg": "/Final_Project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Final_Project/index.html",
+    "main.ab8cafb0.css.map": "/Final_Project/static/css/main.ab8cafb0.css.map",
+    "main.69335490.js.map": "/Final_Project/static/js/main.69335490.js.map",
+    "787.3a567b34.chunk.js.map": "/Final_Project/static/js/787.3a567b34.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab8cafb0.css",
+    "static/js/main.69335490.js"
+  ]
+}
